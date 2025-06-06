@@ -1,0 +1,25 @@
+{
+  "name": "sunvoy",
+  "version": "1.0.0",
+  "description": "Sunvoy - Fullstack Engineer Challange",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx tsc && node --env-file=.env.local dist/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KuldipSarvaiya/sunvoy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/KuldipSarvaiya/sunvoy/issues"
+  },
+  "homepage": "https://github.com/KuldipSarvaiya/sunvoy#readme",
+  "devDependencies": {
+    "@types/node": "^22.15.30",
+    "typescript": "^5.8.3"
+  }
+}
