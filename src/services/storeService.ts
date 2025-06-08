@@ -4,7 +4,7 @@ import * as path from 'path';
 type UserT = Record<string, string>
 
 const COOKIE_FILE = path.join(process.cwd(), 'cookie.txt.local');
-const USERS_FILE = path.join(process.cwd(), 'users.json.local');
+const USERS_FILE = path.join(process.cwd(), 'users.json');
 
 export async function setCookie(cookieString: string): Promise<void> {
   try {

@@ -23,9 +23,7 @@ async function getUsersList(retry: boolean = true): Promise<void> {
 
     const response = await fetch(listUrl, {
       method: 'POST',
-      headers: headers,
-      credentials: 'include',
-      redirect: 'manual'
+      headers: headers
     });
 
     console.log('Response status:', response.status);
